@@ -6,8 +6,8 @@ export const cardApi = createApi({
   reducerPath: "cardApi",
   baseQuery: fetchBaseQuery({ baseUrl: `${HOST}` }),
   endpoints: (builder) => ({
-    getCard: builder.query<Card, number>({
-      query: (cardId) => `card/${cardId}`,
+    getCard: builder.query<Card, string>({
+      query: (cardSlug) => `card/${cardSlug}`,
     }),
     getCards: builder.query<Card[], string>({
       query: (slug) => `cards/${slug}`,
