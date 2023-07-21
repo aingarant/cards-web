@@ -12,7 +12,12 @@ export type Card = {
   image?: string
   annualFee?: number
   monthlyFee?: number
+  annual_fee?: number
+  monthly_fee?: number
+  purchase_interest?: number
+  cash_advance_interest?: number
   purchaseInterestRate?: number
-  cashAdvanceInterestRate?: number
+  advance_interest?: number
   slug?: string
+  cards?: number
 }
