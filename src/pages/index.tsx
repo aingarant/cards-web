@@ -23,7 +23,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-4 gap-2 my-4 text-center font-extrabold text-2xl">
+      <div className="grid sm:grid-cols-2 md:grid-cols-4  gap-2 my-4 text-center font-extrabold text-2xl">
         {isLoading && <p>Loading...</p>}
         {data && data.map((bank: Bank) => <BankItem key={bank.id} {...bank} />)}
       </div>

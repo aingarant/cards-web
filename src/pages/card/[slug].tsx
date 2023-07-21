@@ -48,7 +48,7 @@ const CardsSlug = () => {
       </div>
       <div>
         benefits details
-        <div className="grid grid-cols-6 gap-2">
+        <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-2">
           <div className="p-2 bg-slate-500 text-white">
             <h2>Gas</h2>
             <FaGasPump />

@@ -13,7 +13,7 @@ const CardsSlug = () => {
   return (
     <div>
       <h1>{slug}</h1>
-      <div className="grid grid-cols-3 gap-2 my-4">
+      <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-2">
         {isLoading && <p>Loading...</p>}
         {data &&
           data.map((card) => (
