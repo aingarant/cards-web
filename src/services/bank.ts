@@ -7,10 +7,10 @@ export const bankApi = createApi({
   reducerPath: "bankApi",
   baseQuery: fetchBaseQuery({ baseUrl: `${HOST}` }),
   endpoints: (builder) => ({
-    getBankById: builder.query<Bank, string>({
+    getBankById: builder.query<Bank, number>({
       query: (id) => `bank/${id}`,
     }),
-    getBanks: builder.query<Bank[], string>({
+    getBanks: builder.query<Bank[], void>({
       query: () => `bank/all`,
     }),
   }),
