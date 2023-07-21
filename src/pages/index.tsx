@@ -7,7 +7,7 @@ import { useGetBanksQuery } from "@/services/bank"
 import BankItem from "@/components/bank/BankItem"
 
 const Home = () => {
-  const { data, error, isLoading } = useGetBanksQuery(null)
+  const { data, error, isLoading } = useGetBanksQuery()
 
   return (
     <div>
