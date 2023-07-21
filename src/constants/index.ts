@@ -1,0 +1,1 @@
+export const HOST = 'https://cards-api-swart.vercel.app';
