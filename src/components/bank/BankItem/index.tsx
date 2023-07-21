@@ -7,7 +7,7 @@ import { Bank } from "@/types"
 const BankItem = (bank: Bank) => {
   return (
     <div className="bg-green-100 p-4 text-black" key={bank.id}>
-    <Link href={`/bank/${bank.slug}`}>
+    <Link href={`/cards/${bank.slug}`}>
       <h2>{bank.name}</h2>
     </Link>
   </div>

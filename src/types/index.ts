@@ -14,4 +14,5 @@ export type Card = {
   monthlyFee?: number
   purchaseInterestRate?: number
   cashAdvanceInterestRate?: number
+  slug?: string
 }

@@ -27,15 +27,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/bank/[slug]": [
+    "/card/[slug]": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/bank/[slug].js"
+      "static/chunks/pages/card/[slug].js"
     ],
-    "/cards": [
+    "/cards/[slug]": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/cards.js"
+      "static/chunks/pages/cards/[slug].js"
     ]
   },
   "ampFirstPages": []
